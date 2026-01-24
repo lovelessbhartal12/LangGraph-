@@ -1,0 +1,82 @@
+# =========================
+# Environment files (IMPORTANT)
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Python cache & compiled files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+ENV/
+.python-version
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor settings
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Secrets & keys
+# =========================
+*.pem
+*.key
+*.crt
+secrets.json
+credentials.json
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# LangChain / LangGraph artifacts
+# =========================
+.cache/
+langgraph_storage/
+vectorstore/
+faiss_index/
+chroma_db/
+
+# =========================
+# Node (if frontend exists)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
