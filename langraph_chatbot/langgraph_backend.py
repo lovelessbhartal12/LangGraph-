@@ -10,7 +10,7 @@ from langgraph.graph.message import add_messages
 from langchain_community.chat_models import ChatOllama
 
 llm = ChatOllama(
-    model="phi3:mini",
+    model="phi3:mini",                  
     temperature=0
 )
  
